@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title> Stopwatch </title>
+		<!-- --------- CSS LINK --------- -->
+		<link href="./styles.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+       <h1> STOPWATCH TIMER : </h1>
+	   <hr/>
+	   <!-- --------- MAIN TIMER --------- -->
+		<div id='timer'>00:00:00:00</div>
+		<div id='labels'>
+			<span id='hh'>Hours</span>
+			<span id='mm'>Minutes</span>
+			<span id='ss'>Seconds</span>
+			<span id='ms'>Centiseconds</span>
+		</div>
+        <!-- --------- MAIN TIMER CONTROLER--------- -->
+		<div id='controls'>
+			<button onclick='startTimer()' id='go'>Go</button>
+			<button onclick='stopTimer()'  id='stop'>Stop</button>
+			<button onclick='clearTimer()' id='clear'>Clear</button>
+		</div>
+           <!-- --------- JAVA SCRIPT LINK --------- -->
+	     <script src="./index.js"></script>
+
+	
+	</body>
+</html>

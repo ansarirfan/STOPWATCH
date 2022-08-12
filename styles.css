@@ -1,0 +1,87 @@
+body{
+    background-image:url("images/bgw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    color :hwb(120 20% 3% / 0.984);
+    text-align: center;
+    margin-left: 140px;
+    text-shadow: rgba(255, 250, 250, 0.959);
+}
+
+
+#timer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 35%;
+  justify-content: center;
+  align-items: center;
+    width: 460px;
+    font-size: 70px;
+    background-color: black;
+    color: limegreen;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgray;
+
+    
+  }
+
+
+
+  #labels {
+    margin-top: -25px;
+    z-index: 2;
+    color: limegreen;
+    font-size: 12px;
+    font-family: monospace;
+    width:90%;
+    
+
+    word-wrap: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
+
+  }
+  #hh {margin-left: 280px;}
+  #mm {margin-left: 80px;}
+  #ss {margin-left: 70px;}
+  #ms {margin-left: 45px;}
+  
+  #controls {
+    margin-left:600px;
+    margin-top: 10px;
+    
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 19%, 92%);
+    
+
+
+  }
+  #go    { background-color: limegreen; }
+  
+  #stop  { background-color: red;  display: none; }
+  
+  #clear { background-color: yellow; display: none;}
+  
+  body, button {
+    font-family: 'Courier';
+    
+  }
+  
