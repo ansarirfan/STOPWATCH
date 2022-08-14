@@ -1,5 +1,5 @@
 # Stopwatch
-A simple Stopwatch developed using Vanilla JS and styled using CSS, which ***starts, stops and resets*** the timer. 
+A simple Stopwatch developed using Vanilla JS and styled using CSS, which ***starts, stops and clear*** the timer. 
 
 The link to the final hosted webpage is : https://ansarirfan.github.io/STOPWATCH/
 
